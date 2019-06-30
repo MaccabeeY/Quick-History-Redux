@@ -1,4 +1,4 @@
-# Quick-History-Redux
+# Quick History Redux
 
 A Redux (bug fix) for gucio1007's \"Quick History\".  It shows your browsing history in the browser sidebar.
 
