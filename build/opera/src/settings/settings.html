@@ -1,0 +1,86 @@
+<!doctype html>
+<html class="loading focus-managed" spellcheck="false">
+<head>
+<meta charset="utf-8">
+  <title i18n-content="settingsTitle"></title>
+  <link rel="stylesheet" type="text/css" href="/styles/layout.css">
+  <link rel="stylesheet" type="text/css" href="/styles/controls.css">
+  <link rel="stylesheet" type="text/css" href="settings.css">
+  <script type="text/javascript" src="/scripts/common.js"></script>
+  <script type="text/javascript" src="/scripts/focus.js"></script>
+  <script type="text/javascript" src="/scripts/i18n.js"></script>
+  <script type="text/javascript" src="/scripts/settings.js"></script>
+  <script type="text/javascript" src="/scripts/layout.js"></script>
+  <script type="text/javascript" src="/scripts/page.js"></script>
+  <script type="text/javascript" src="settings.js"></script>
+</head>
+<body>
+  <h1>
+    <span i18n-content="settingsTitle"></span>
+    <button id="reset" i18n-content="buttonReset"></button>
+  </h1>
+  <section>
+    <h3 i18n-content="settingsUIHeader"></h3>
+    <div class="checkbox setting">
+      <label>
+        <input type="checkbox" name="ui.open_settings_button">
+        <span i18n-content="settingsUIOpenSettingsLabel"></span>
+      </label>
+    </div>
+    <div class="checkbox setting">
+      <label>
+        <input type="checkbox" name="ui.clear_history_button">
+        <span i18n-content="settingsUIClearHistoryLabel"></span>
+      </label>
+    </div>
+    <div class="checkbox setting">
+      <label>
+        <input type="checkbox" name="ui.range_filter">
+        <span i18n-content="settingsUIRangeFilterLabel"></span>
+      </label>
+    </div>
+  </section>
+  <section>
+    <h3 i18n-content="settingsListHeader"></h3>
+    <div class="checkbox setting">
+      <label>
+        <input type="checkbox" name="list.timeline.group_day">
+        <span i18n-content="settingsListTimelineGroupDayLabel"></span>
+      </label>
+      <div class="checkbox setting" hidden>
+        <label>
+          <input type="checkbox" name="list.timeline.group_day.expand">
+          <span i18n-content="settingsListTimelineGroupsExpandLabel"></span>
+        </label>
+      </div>
+    </div>
+    <div class="checkbox setting">
+      <label>
+        <input type="checkbox" name="list.timeline.group_domain">
+        <span i18n-content="settingsListTimelineGroupDomainLabel"></span>
+      </label>
+      <div class="checkbox setting" hidden>
+        <label>
+          <input type="checkbox" name="list.timeline.group_domain.expand">
+          <span i18n-content="settingsListTimelineGroupsExpandLabel"></span>
+        </label>
+      </div>
+    </div>
+  </section>
+  <section hidden>
+    <h3 i18n-content="settingsItemHeader"></h3>
+    <div class="checkbox setting">
+      <label>
+        <input type="checkbox" name="item.favicon">
+        <span i18n-content="settingsItemFaviconLabel"></span>
+      </label>
+    </div>
+    <div class="checkbox setting">
+      <label>
+        <input type="checkbox" name="item.hour">
+        <span i18n-content="settingsItemHourLabel"></span>
+      </label>
+    </div>
+  </section>
+</body>
+</html>

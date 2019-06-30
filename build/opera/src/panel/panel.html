@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="loading" spellcheck="false">
+<head>
+<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/styles/layout.css">
+  <link rel="stylesheet" type="text/css" href="/styles/controls.css">
+  <link rel="stylesheet" type="text/css" href="panel.css">
+  <script type="text/javascript" src="/scripts/common.js"></script>
+  <script type="text/javascript" src="/scripts/focus.js"></script>
+  <script type="text/javascript" src="/scripts/i18n.js"></script>
+  <script type="text/javascript" src="/scripts/settings.js"></script>
+  <script type="text/javascript" src="/scripts/layout.js"></script>
+  <script type="text/javascript" src="/scripts/page.js"></script>
+  <script type="text/javascript" src="favicon.js"></script>
+  <script type="text/javascript" src="list.js"></script>
+  <script type="text/javascript" src="search_list.js"></script>
+  <script type="text/javascript" src="timeline_list.js"></script>
+  <script type="text/javascript" src="panel.js"></script>
+</head>
+<body>
+<section id="manager">
+  <header>
+    <input id="search-field" type="search" results="0"
+        i18n-values="placeholder:searchPlaceholder" incremental autofocus>
+    <div>
+      <button class="icon" id="open-settings"
+          i18n-values="title:openSettingsButton"></button>
+      <button id="clear-history" class="icon"
+          i18n-values="title:clearHistoryButton"></button>
+    </div>
+  </header>
+  <div id="list">
+    <div id="list-container"></div>
+    <button i18n-content="moreButton" id="load-more" hidden></button>
+  </div>
+  <footer>
+    <button i18n-content="removeSearchResults" class="search-view"
+      id="clear-search-results" hidden></button>
+    <select class="timeline-view">
+      <option i18n-content="periodHour" value="3600000"></option>
+      <option i18n-content="periodDay" value="86400000"></option>
+      <option i18n-content="periodWeek" value="604800000"></option>
+      <option i18n-content="periodAll" value="0"></option>
+    </select>
+  </footer>
+</section>
+</body>
+</html>

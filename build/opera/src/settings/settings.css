@@ -1,0 +1,38 @@
+html {
+  background-color: #f4f4f4;
+}
+
+body {
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 1rem;
+  height: auto;
+}
+
+h1 {
+  align-items: baseline;
+  display: flex;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h1 span {
+  flex: 1;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+section {
+  border: 1px solid hsla(210, 80%, 50%, .2);
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+}

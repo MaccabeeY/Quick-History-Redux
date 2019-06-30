@@ -1,0 +1,27 @@
+{
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "developer": {
+      "name": "gucio1007"
+   },
+   "icons": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3r7KMUFs2P4Q26bDTFqldUByWp/A06+clKe0IHgksj5T61rPc6pdzbF+pNvuduWOYujom11SCIoVOWC6/kxYW69Tre7UWp9C2gclVDwGCGaAX13wPY00wRoGhnxDlhFf+vRxLuyFP1cZXxq3THFRdEtCyjdgeaTnnx3HnPaAplzDxMWx6o/kQexLsXBGLh5zCmnK5EG6KAxUbzcplHLww0T+wkDF54lKZyvDVhmGRImnAhwN4Dil6kn7JFBMzhtiInewOEvsATjEZ8rnmrdKKV63L+Li0vbVvzye5Ci738worFBMiiMQUFGnnkTrjiB4Q8PAnl9fFp5q60SEWVfsZwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_page": "settings/settings.html",
+   "permissions": [ "tabs", "history", "chrome://favicon/" ],
+   "sidebar_action": {
+      "default_icon": {
+         "19": "icons/19.png",
+         "38": "icons/38.png"
+      },
+      "default_panel": "/panel/panel.html",
+      "default_title": "__MSG_extName__"
+   },
+   "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+   "version": "0.9.9"
+}

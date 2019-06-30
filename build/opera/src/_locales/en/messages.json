@@ -1,0 +1,150 @@
+{
+   "buttonReset": {
+      "description": "",
+      "message": "Reset all"
+   },
+   "clearHistoryButton": {
+      "description": "",
+      "message": "Clear history"
+   },
+   "extDescription": {
+      "description": "Description of extension functionality.",
+      "message": "It shows your browsing history in the browser sidebar."
+   },
+   "extName": {
+      "description": "Extension name.",
+      "message": "Quick History"
+   },
+   "groupTitle": {
+      "description": "",
+      "message": "($count$) $url$",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": ""
+         },
+         "url": {
+            "content": "$2",
+            "example": ""
+         }
+      }
+   },
+   "headerToday": {
+      "description": "",
+      "message": "Today"
+   },
+   "headerYesterday": {
+      "description": "",
+      "message": "Yesterday"
+   },
+   "moreButton": {
+      "description": "",
+      "message": "Load more"
+   },
+   "noHistory": {
+      "description": "",
+      "message": "No history."
+   },
+   "noRangeHistory": {
+      "description": "",
+      "message": "No history in current range."
+   },
+   "noSearchHistory": {
+      "description": "",
+      "message": "No result found."
+   },
+   "openSettingsButton": {
+      "description": "",
+      "message": "Open preferences"
+   },
+   "periodAll": {
+      "description": "",
+      "message": "All"
+   },
+   "periodDay": {
+      "description": "",
+      "message": "Last day"
+   },
+   "periodHour": {
+      "description": "",
+      "message": "Last hour"
+   },
+   "periodWeek": {
+      "description": "",
+      "message": "Last week"
+   },
+   "removeGroupButton": {
+      "description": "",
+      "message": "Remove group"
+   },
+   "removeItemButton": {
+      "description": "",
+      "message": "Remove"
+   },
+   "removeSearchResults": {
+      "description": "",
+      "message": "Remove found items"
+   },
+   "searchPlaceholder": {
+      "description": "Placeholder of the search input",
+      "message": "Search history"
+   },
+   "searchResultHeader": {
+      "description": "",
+      "message": "Search results ($resultsCount$)",
+      "placeholders": {
+         "resultsCount": {
+            "content": "$1",
+            "example": ""
+         }
+      }
+   },
+   "settingsItemFaviconLabel": {
+      "description": "",
+      "message": "Show favicon"
+   },
+   "settingsItemHeader": {
+      "description": "",
+      "message": "Item"
+   },
+   "settingsItemHourLabel": {
+      "description": "",
+      "message": "Show visit's hour"
+   },
+   "settingsListHeader": {
+      "description": "",
+      "message": "List"
+   },
+   "settingsListTimelineGroupDayLabel": {
+      "description": "",
+      "message": "Group items by days"
+   },
+   "settingsListTimelineGroupDomainLabel": {
+      "description": "",
+      "message": "Group items by domains"
+   },
+   "settingsListTimelineGroupsExpandLabel": {
+      "description": "",
+      "message": "Expand by default"
+   },
+   "settingsTitle": {
+      "description": "",
+      "message": "Quick History - Preferences"
+   },
+   "settingsUIClearHistoryLabel": {
+      "description": "",
+      "message": "Show the clear history button"
+   },
+   "settingsUIHeader": {
+      "description": "",
+      "message": "Interface"
+   },
+   "settingsUIOpenSettingsLabel": {
+      "description": "",
+      "message": "Show the open preferences button"
+   },
+   "settingsUIRangeFilterLabel": {
+      "description": "",
+      "message": "Show the ranges filter"
+   }
+}

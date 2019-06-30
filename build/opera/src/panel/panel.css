@@ -1,0 +1,182 @@
+html {
+  min-width: 180px;
+  overflow-x: auto;
+}
+
+html.timeline-view .search-view,
+html.search-view .timeline-view {
+  display: none;
+}
+
+.overlays {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  padding: 0.6rem;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlay {
+  padding: 0.6rem;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 3px;
+}
+
+#manager {
+  width: 100%;
+  height: 100%;
+}
+
+#manager header,
+#manager footer {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 .6rem;
+}
+
+#manager footer > *,
+#manager header > * {
+  margin-bottom: .6rem;
+  margin-top: .6rem;
+}
+
+#manager header > input,
+#manager footer > select,
+#clear-search-results {
+  flex: 1 1 0;
+}
+
+#manager header button {
+  -webkit-margin-start: 0.3rem;
+}
+
+#manager header > div {
+  display: inline-flex;
+}
+
+#clear-history {
+  background-image: url('/icons/clear.svg');
+}
+
+#open-settings {
+  background-image: url('/icons/settings.svg');
+}
+
+#manager {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#load-more {
+  display: block;
+  margin: 0.6rem auto;
+}
+
+#list {
+  flex: 1 1 0;
+  overflow: auto;
+  padding: 0 .6rem;
+}
+
+#list p {
+  margin: 3.6rem 0;
+  text-align: center;
+  color: rgb(95, 95 ,95);
+}
+
+#list h3 {
+  color: hsl(0, 0%, 16%);
+  display: flex;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1rem;
+  margin: 1rem 0 0.6rem 0;
+}
+
+#list h3::after {
+  background-image: linear-gradient(rgb(190, 190, 190),
+                                    transparent 1px);
+  background-position: left 55%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  content: '';
+  flex: auto;
+  -webkit-margin-start: 10px;
+}
+
+#list .group h4,
+#list .item {
+  background-color: transparent;
+  background-position: 3px 3px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: block;
+  font-size: inherit;
+  font-weight: normal;
+  left: -3px;
+  line-height: 22px;
+  margin: 2px 0;
+  min-height: 20px;
+  overflow: hidden;
+  padding-left: 24px;
+  position: relative;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#list .item {
+  color: rgb(76, 77, 80);
+}
+
+#list .group h4:hover,
+#list .item:hover {
+  background-image: none !important;
+}
+
+#list .item:hover {
+  text-decoration: underline;
+}
+
+#list .group h4 .remove,
+#list .item .remove {
+  background: #fff url(/icons/remove.svg) no-repeat 50% 50%;
+  background-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  height: 14px;
+  left: 3px;
+  opacity: 0;
+  position: absolute;
+  top: 3px;
+  width: 14px;
+}
+
+#list .group h4:hover .remove,
+#list .item:hover .remove {
+  opacity: 1;
+}
+
+html.focus-managed.focus-outline-visible #list .group h4 .remove:not(:focus),
+html.focus-managed.focus-outline-visible #list .item .remove:not(:focus) {
+  box-shadow: 0 0 0 2px #fff;
+}
+
+html.focus-managed.focus-outline-visible #list .group h4 .remove:focus,
+html.focus-managed.focus-outline-visible #list .item .remove:focus,
+#list .group h4:hover .remove:hover,
+#list .item:hover .remove:hover {
+  background-color: #f4f4f4;
+  border-color: #1A80E6;
+  opacity: 1;
+}
+
+#list .group .item {
+  background-image: none !important;
+}
+
