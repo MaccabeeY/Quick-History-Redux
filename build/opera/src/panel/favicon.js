@@ -36,7 +36,8 @@ class Favicon {
 Favicon.HOST = 'chrome://favicon/';
 
 Favicon.Events = {
-  onUpdated: new chrome.Event()
+//PEP  onUpdated: new chrome.Event()
+  onUpdated: chrome.runtime.onMessage.constructor()
 };
 
 var favicon = new Favicon();

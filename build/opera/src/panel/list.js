@@ -37,7 +37,8 @@ class List {
 };
 
 List.Events = {
-  onChanged: new chrome.Event()
+//PEP  onChanged: new chrome.Event()
+  onChanged: chrome.runtime.onMessage.constructor()
 };
 
 List.Templates = class {

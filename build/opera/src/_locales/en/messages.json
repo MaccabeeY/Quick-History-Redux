@@ -9,11 +9,11 @@
    },
    "extDescription": {
       "description": "Description of extension functionality.",
-      "message": "It shows your browsing history in the browser sidebar."
+      "message": "A Redux (bug fix) for gucio1007's \"Quick History\".  It shows your browsing history in the browser sidebar."
    },
    "extName": {
       "description": "Extension name.",
-      "message": "Quick History"
+      "message": "Quick History Redux"
    },
    "groupTitle": {
       "description": "",
