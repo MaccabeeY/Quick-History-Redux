@@ -9,7 +9,6 @@
       "48": "icons/48.png",
       "64": "icons/64.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3r7KMUFs2P4Q26bDTFqldUByWp/A06+clKe0IHgksj5T61rPc6pdzbF+pNvuduWOYujom11SCIoVOWC6/kxYW69Tre7UWp9C2gclVDwGCGaAX13wPY00wRoGhnxDlhFf+vRxLuyFP1cZXxq3THFRdEtCyjdgeaTnnx3HnPaAplzDxMWx6o/kQexLsXBGLh5zCmnK5EG6KAxUbzcplHLww0T+wkDF54lKZyvDVhmGRImnAhwN4Dil6kn7JFBMzhtiInewOEvsATjEZ8rnmrdKKV63L+Li0vbVvzye5Ci738worFBMiiMQUFGnnkTrjiB4Q8PAnl9fFp5q60SEWVfsZwIDAQAB",
    "manifest_version": 2,
    "name": "__MSG_extName__",
    "options_page": "settings/settings.html",
@@ -23,5 +22,5 @@
       "default_title": "__MSG_extName__"
    },
    "update_url": "https://extension-updates.opera.com/api/omaha/update/",
-   "version": "1.0.0"
+   "version": "1.0.1"
 }
