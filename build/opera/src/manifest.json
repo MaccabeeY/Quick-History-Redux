@@ -22,5 +22,5 @@
       "default_title": "__MSG_extName__"
    },
    "update_url": "https://extension-updates.opera.com/api/omaha/update/",
-   "version": "1.0.2"
+   "version": "1.0.3"
 }
