@@ -51,7 +51,8 @@ class Settings {
 
 Settings.Events = {
 //PEP  onChanged: new chrome.Event()
-  onChanged: chrome.runtime.onMessage.constructor()
+//PEP2  onChanged: chrome.runtime.onMessage.constructor()
+  onChanged: chrome.runtime.onMessage
 };
 
 let settings = new Settings();

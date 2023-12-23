@@ -6,11 +6,17 @@ class Favicon {
   }
 
   registerListeners_() {
-    chrome.tabs.onUpdated.addListener(this.onUpdated_.bind(this));
+//PEP    chrome.tabs.onUpdated.addListener(this.onUpdated_.bind(this));
   }
 
   getURL(url) {
-    return Favicon.HOST + url;
+//PEP    return Favicon.HOST + url;
+return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(url)}&sz=16`;
+/*PEP for when opera gets around to support the new chrome standard
+    const icon = new URL(chrome.runtime.getURL('/_favicon/'));
+    icon.searchParams.set('pageUrl', url);
+    icon.searchParams.set('size', '16');
+    return icon.toString();*/
   }
 
   isInUse() {
@@ -37,7 +43,8 @@ Favicon.HOST = 'chrome://favicon/';
 
 Favicon.Events = {
 //PEP  onUpdated: new chrome.Event()
-  onUpdated: chrome.runtime.onMessage.constructor()
+//PEP2  onUpdated: chrome.runtime.onMessage.constructor()
+  onUpdated: chrome.runtime.onMessage
 };
 
 var favicon = new Favicon();

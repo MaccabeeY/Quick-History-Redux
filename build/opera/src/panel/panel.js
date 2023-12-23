@@ -184,10 +184,11 @@ class PanelPage extends Page {
   }
 
   onOpenSettings_(e) {
-    chrome.tabs.create({
+/*PEP    chrome.tabs.create({
       url: chrome.extension.getURL(chrome.app.getDetails().options_page),
       active: true
-    });
+    });*/
+    chrome.runtime.openOptionsPage();
     e.preventDefault();
   }
 

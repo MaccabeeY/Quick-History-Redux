@@ -9,10 +9,10 @@
       "48": "icons/48.png",
       "64": "icons/64.png"
    },
-   "manifest_version": 2,
+   "manifest_version": 3,
    "name": "__MSG_extName__",
    "options_page": "settings/settings.html",
-   "permissions": [ "tabs", "history", "chrome://favicon/" ],
+   "permissions": [ "tabs", "history", "favicon" ],
    "sidebar_action": {
       "default_icon": {
          "19": "icons/19.png",
@@ -22,5 +22,12 @@
       "default_title": "__MSG_extName__"
    },
    "update_url": "https://extension-updates.opera.com/api/omaha/update/",
-   "version": "1.0.3"
+   "version": "2.0.1",
+   "web_accessible_resources": [
+      {
+         "resources": ["_favicon/*"],
+         "matches": ["<all_urls>"],
+         "extension_ids": ["*"]
+      }
+   ]
 }
